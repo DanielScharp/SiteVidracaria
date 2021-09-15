@@ -1,0 +1,28 @@
+
+/**********************/
+/*     Statistics     */
+/**********************/
+.counter {
+	padding-top: 9.75rem;
+	padding-bottom: 4.375rem;
+	text-align: center;
+}
+
+.counter .counter-cell {
+	margin-bottom: 4rem;
+}
+
+.counter .purecounter {
+	margin-bottom: 1.5rem;
+	color: var(--primeira);
+	font-weight: 600;
+	font-size: 5rem;
+	line-height: 3rem;
+}
+
+.counter .counter-info {
+	color: var(--setima);
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+}
+

@@ -1,0 +1,47 @@
+.contato {
+	padding-top: 7rem;
+	padding-bottom: 3.5rem;
+	text-align: center;
+}
+
+.contato h2 {
+	margin-bottom: 0.75rem;
+}
+
+.contato .list-unstyled {
+	margin-bottom: 3.75rem;
+}
+
+.contato .list-unstyled li {
+	display: inline;
+	margin-right: 0.75rem;
+}
+
+.contato .list-unstyled .fas {
+	margin-right: 0.5rem;
+	color: var(--primeira);
+	font-size: 0.875rem;
+}
+
+.contato .map-responsive {
+	position: relative;
+	overflow: hidden;
+	height: 0;
+	margin-bottom: 4rem;
+	padding-bottom: 100%;
+}
+
+.contato .map-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none; 
+}
+
+@media (min-width: 768px) {
+	.contato .map-responsive {
+		padding-bottom: 45%;
+	}
+}

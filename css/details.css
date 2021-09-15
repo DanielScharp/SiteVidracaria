@@ -1,0 +1,23 @@
+
+.split .area-1 {
+	height: 430px;
+	background: url('../images/img/4.svg') center center no-repeat;
+	background-size: cover;
+}
+
+.split .area-2 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
+}
+
+.split h2 {
+	margin-bottom: 1.5rem;
+}
+
+.split p {
+	margin-bottom: 2.25rem;
+}
+
+.split p:last-of-type {
+	margin-bottom: 0;
+}

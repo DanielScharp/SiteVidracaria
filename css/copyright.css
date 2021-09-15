@@ -1,0 +1,12 @@
+.copyright {
+	padding-bottom: 1rem;
+	background-color: var(--setima);
+	text-align: center;
+}
+
+.copyright p,
+.copyright a {
+	color: var(--segunda);
+	text-decoration: none;
+}
+

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galeria - Quadros Decorativos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/galeria.css" />
+    <link rel="stylesheet" href="./css/navigation.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+  </head>
+  <body>
+     <!-- Navigation -->
+     <nav id="navbarExample" class="navbar navbar-expand-lg navbar-dark bg-nav" aria-label="Main navigation">
+      <div class="container">
+
+          <!-- Image Logo -->
+          <a class="navbar-brand logo-image" href="index.html"><img src="images/img/Farik.png" alt="alternative"></a> 
+
+          <!-- Text Logo - Use this if you don't have a graphic logo -->
+          <!-- <a class="navbar-brand logo-text" href="index.html">Desi</a> -->
+
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#header">Início</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#artigos">Artigos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Artigos</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                          <li><a class="dropdown-item" href="artigo-sete-vantagens.html">7 Vantagens</a></li>
+                          <li><div class="dropdown-divider"></div></li>
+                          <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                          <li><div class="dropdown-divider"></div></li>
+                          <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#contato">Contato</a>
+                  </li>
+              </ul>
+          </div> <!-- end of navbar-collapse -->
+      </div> <!-- end of container -->
+  </nav> <!-- end of navbar -->
+  <!-- end of navigation -->
+
+    <div class="titulo-galeria">
+      <h1>Aqui está alguns dos nossos projetos</h1>
+      <p>Separamos as categorias mais procuradas, para auxiliar na busca dos seus objetivos</p>
+    </div>
+    <div class="wrapper">
+      <!-- filter Items -->
+      <nav class="filtro">
+        <div class="items">
+          <span class="item active" data-name="all">Todos</span>
+          <span class="item" data-name="box">Box</span>
+          <span class="item" data-name="porta">Portas</span>
+          <span class="item" data-name="janela">Janelas</span>
+          <span class="item" data-name="corporativo">Corporativo</span>
+          <span class="item" data-name="outros">outros</span>
+        </div>
+      </nav>
+      <!-- filter Images -->
+      <div class="gallery">
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/4.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/5.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/6.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/7.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="sacada">
+          <span><img src="./images/Nova pasta/8.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/9.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/10.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/11.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="espelho">
+          <span><img src="./images/Nova pasta/12.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="espelho">
+          <span><img src="./images/Nova pasta/13.jpg" alt="" /></span>
+        </div>
+
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/15.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/16.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/17.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/18.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/19.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/20.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/21.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="box">
+          <span><img src="./images/Nova pasta/22.jpg" alt="" /></span>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="wrapper">
+      
+      <div class="gallery">
+
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/1(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/2(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="porta">
+          <span><img src="./images/Nova pasta/3(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/4(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="corporativo">
+          <span><img src="./images/Nova pasta/5(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="corporativo">
+          <span><img src="./images/Nova pasta/6(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="corporativo">
+          <span><img src="./images/Nova pasta/7(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="corporativo">
+          <span><img src="./images/Nova pasta/8(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/9(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/10(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/11(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/12(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/13(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/14(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/15(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/16(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="janela">
+          <span><img src="./images/Nova pasta/17(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="corporativo">
+          <span><img src="./images/Nova pasta/18(1).jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="outros">
+          <span><img src="./images/Nova pasta/19(1).jpg" alt="" /></span>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- fullscreen img preview box -->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Imagem da categoria: <p></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box">
+          <img src="" alt=""></div>
+    </div>
+    <div class="shadow"></div>
+
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="./js/galeria.js"></script>
+  </body>
+</html>

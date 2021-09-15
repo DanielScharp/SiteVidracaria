@@ -1,0 +1,19 @@
+/**********************/
+/*     Services 3     */
+/**********************/
+.basic-3 {
+	padding-top: 5rem;
+	padding-bottom: 9.75rem;
+}
+
+.basic-3 .image-container {
+	margin-bottom: 4rem;
+}
+
+.basic-3 .image-container img {
+	border-radius: 8px;
+}
+
+.basic-3 h2 {
+	margin-bottom: 1.5rem;
+}

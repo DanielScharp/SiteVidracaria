@@ -1,0 +1,22 @@
+.header {
+	position: relative;
+}
+
+.header .header-content{
+	padding-top: 11rem;
+	padding-bottom: 9rem;
+	background: url(../images/img/9.svg);
+	background-size: cover;
+	text-align: center; 
+}
+
+.header .h1-large {
+	margin-bottom: 2.25rem;
+	color: var(--decima-primeira);
+	font-size: 3rem;
+	line-height: 3.75rem;
+	text-shadow: 3px 3px 15px black;
+}
+
+
+
