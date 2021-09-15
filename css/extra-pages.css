@@ -8,6 +8,11 @@
 	color: var(--decima-primeira);
 }
 
+.ex-basic-1 div.col-lg-12{
+	display:flex;
+	justify-content:center;
+}
+
 .ex-basic-1 .list-unstyled .fas {
 	font-size: 0.375rem;
 	line-height: 1.625rem;
